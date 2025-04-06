@@ -21,7 +21,7 @@ prompts = [
 # Function to call OpenAI API and get a response
 def get_response(prompt):
     response = client.chat.completions.create(
-        model="gpt-3.5-turbo",  # Change to "gpt-4" if available
+        model="gpt-3.5-turbo",  # ex "gpt-4" 
         messages=[{"role": "user", "content": prompt}]
     )
     return response.choices[0].message.content
