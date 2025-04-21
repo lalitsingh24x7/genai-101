@@ -32,23 +32,28 @@ documents = [
     "Lalit Singh Lover Driving car."
 ]
 
-# Convert text into vector embeddings
+# Initialize a text splitter with max 100 characters per chunk and 20 characters overlap.
 text_splitter = CharacterTextSplitter(
     chunk_size=100,
     chunk_overlap=20
     )
 
+# Splits the documents into smaller overlapping chunks.
 split_docs = text_splitter.create_documents(documents)
 
+# convert text chunks into vector embeddings using OpenAIEmbeddings
 embeddings = OpenAIEmbeddings()
+
+# Generate embeddings from split_docs and store them in a FAISS vector store.
 vector_db = FAISS.from_documents(
     split_docs,
     embeddings
-    ) # here we are using FAISS as a vector store to store the embeddings
+    )
 
-# Create RAG-based chatbot
+# Convert the FAISS store into a retriever object that can be queried with questions.
 retriever = vector_db.as_retriever()
 
+# Create a Retrieval-Augmented Generation (RAG) chain
 qa_chain = RetrievalQA.from_chain_type(
     llm=ChatOpenAI(model_name="gpt-3.5-turbo"),
     retriever=retriever
