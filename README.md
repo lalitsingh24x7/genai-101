@@ -1,28 +1,25 @@
-# From Zero to GenAI 🚀
+# GenAI 101
 
-Welcome to **From Zero to GenAI**, a curated learning journey for developers, data engineers, and enthusiasts looking to dive into the world of Generative AI from the ground up.
+Welcome to **GenAI 101**, a practical learning guide for developers, data engineers, and anyone interested in getting started with Generative AI.
 
-This repository is designed to take you step-by-step from **no prior experience** to building **real-world GenAI applications** using modern tools and frameworks like OpenAI APIs, LangChain, Hugging Face, and more.
+This repository helps you go from the basics to building real-world GenAI applications using tools like OpenAI APIs, LangChain, Hugging Face, and more.
 
-## ✨ What You’ll Find Here
+## What’s Inside
 
-- 📘 **Conceptual Guides** – Understand the fundamentals of GenAI, LLMs, tokenization, embeddings, and prompt engineering.
-- 🛠️ **Hands-on Projects** – Build your own GenAI apps like text generators, chatbots, image generators, and more.
-- 🔗 **API Integrations** – Work with OpenAI, Hugging Face, Cohere, and other popular platforms.
-- 🎯 **Use Case Walkthroughs** – Implement GenAI in real scenarios (e.g., content creation, summarization, code generation).
-- 🧰 **Toolkits & Frameworks** – Intro to LangChain, Vector DBs, Pinecone, and other essential tools.
-- ✅ **Beginner-Friendly** – No prior ML or deep learning background required.
+- **Concept Guides** – Learn the fundamentals of GenAI, LLMs, embeddings, and prompt engineering.
+- **Hands-on Projects** – Build text generators, chatbots, and other GenAI apps.
+- **API Integrations** – Work with OpenAI, Hugging Face, Cohere, and more.
+- **Use Case Walkthroughs** – Apply GenAI to content creation, summarization, and code generation.
+- **Beginner-Friendly** – No prior machine learning experience required.
 
-## 👨‍💻 Who This Is For
+## Who Is This For
 
-- Aspiring ML Engineers
-- Backend/Full-stack Devs transitioning to AI
-- Data Engineers looking to upskill
-- Curious builders and tinkerers
+- Developers and engineers new to GenAI
+- Data engineers looking to upskill
+- Anyone curious about practical GenAI projects
 
 ---
 
-This repo will be regularly updated with new learnings, experiments, and templates.
+This repo is updated regularly with new examples and resources.
 
-> ⭐ Star this repo and follow along as we grow from **Zero to GenAI!**
-
+> ⭐ Star this repo to stay updated with the latest GenAI learning materials!
