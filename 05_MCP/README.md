@@ -6,11 +6,11 @@ This project demonstrates a simple Model Context Protocol (MCP) setup using Pyth
 
 ```
 +-------------------+        stdio         +-------------------+
-|                   | <----------------->  |                   |
-|   client.py       |                     |   mathserver.py    |
-| (LangChain Agent) |                     | (Math MCP Server)  |
-|                   |                     |                   |
-+-------------------+                     +-------------------+
+|                   | <------------------> |                   |
+|   client.py       |                      |   mathserver.py   |
+| (LangChain Agent) |                      | (Math MCP Server) |
+|                   |                      |                   |
++-------------------+                      +-------------------+
         |
         | streamable-http
         v
