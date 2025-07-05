@@ -1,6 +1,6 @@
-# 05-MCP: Modular Command Platform Example
+# 05-MCP: Model Context Protocol Example
 
-This project demonstrates a simple Modular Command Platform (MCP) setup using Python, featuring two MCP servers (Math and To-Do) and a command-line client powered by LangChain and OpenAI.
+This project demonstrates a simple Model Context Protocol (MCP) setup using Python, featuring two MCP servers (Math and To-Do) and a command-line client powered by LangChain and OpenAI.
 
 ## Architecture
 
@@ -105,3 +105,5 @@ Type your requests at the prompt, for example:
 - The to-do server must be started manually before running the client.
 
 ---
+
+**Note:** MCP stands for **Model Context Protocol**.
