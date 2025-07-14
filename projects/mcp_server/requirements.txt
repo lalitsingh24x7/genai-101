@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+fastapi-mcp
+langchain-openai
+langchain-mcp-adapters
+mcp
+langgraph
+gradio
+streamlit
+sqlalchemy
