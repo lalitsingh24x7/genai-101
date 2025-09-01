@@ -8,7 +8,7 @@ This project demonstrates how to expose existing REST APIs and Python functions 
 
 ## 📊 Project Flow Diagram
 
-![Project Architecture](mcp_demo.png)
+![Project Architecture](flow.jpeg)
 
 ---
 
